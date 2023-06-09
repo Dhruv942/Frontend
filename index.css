@@ -1,0 +1,38 @@
+.container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 10px solid #0c0000;
+  }
+
+  .item {
+    width: 100px;
+    height: 50px;
+    background-color: #0abaf4;
+    border: 3px solid #0c0000;
+    margin: 5px;
+    padding: 5px;
+    cursor: move;
+  }
+
+  .item.dragging {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+
+  .success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 50px;
+  }
+ .Reset{
+    border-radius: 5px;
+    border:5px solid black;
+ }
